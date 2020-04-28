@@ -44,6 +44,11 @@ sudo apt-get update && sudo apt-get install yarn -y&&
 sudo apt-add-repository ppa:graphics-drivers/ppa && sudo apt update&&
 sudo ubuntu-drivers autoinstall -y&&
 
+## Lutris ##
+
+sudo add-apt-repository ppa:lutris-team/lutris && sudo apt update&&
+sudo apt-get install lutris -y&&
+
 ## Atualização do sistema ##
 
 sudo apt update && sudo apt dist-upgrade -y && sudo apt autoclean -y && sudo apt autoremove -y &&
